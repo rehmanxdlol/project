@@ -1,0 +1,19 @@
+<html>
+<head>
+<title>Page title</title>
+</head>
+<body>
+
+<h1>Validation form and report</h1>
+<p><a href="index.html">Return to home page</a></p
+<>
+<form action="/Validation_report.php">
+<label for="fname">First Name:</label><br>
+<input type="text" id="fname" name="fname"></br>
+Last Name: </br>
+<label for="lname"Last Name:</label>
+<input type="text" id="lname" name="lname"><br>
+Email: </br>
+<input type="text" name="email">
+</br></br><input type="submit" value="Submit">
+

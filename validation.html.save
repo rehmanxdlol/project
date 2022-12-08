@@ -1,0 +1,18 @@
+<html>
+<head>
+<p><a href ="index.html">Home Page</a> Return to home page</p>
+<h2>Validation Form</h2>
+<form action ="/Validation_report.php">
+<label for ="fname">First Name:</label><br>
+<input type="text" id="fname" name="fname" required<br
+<label for="lname">Last Name:</label><br>
+<input type="text" id="lname" name"lname"><br>
+Email: </br>
+<input type="text" name="email">
+
+
+
+</form>
+</head>
+
+</html>

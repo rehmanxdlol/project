@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Scripting/EmptyPHPWebPage.php to edit this template
+-->
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Receive HTTP Post Request</title>
+    </head>
+    <body>
+        <table border="1">
+            <tr><<td>First Name:</td><td><?php echo input_filter(INPUT_POST,'fname')?></td></tr>
+            <tr><<td>Last Name:</td><td><?php echo input_filter(INPUT_POST, 'lname')?></td></tr>
+            <tr><<td>Marital Status</td><td><?php echo input_filter(INPUT_POST, 'gender')?></td></tr>
+            <tr><<td>Email:</td><td><?php echo input_filter(INPUT_POST, 'email', FILTER_VALIDATE_EMAIL) ?></td></tr>
+            
+        </table>
+    <

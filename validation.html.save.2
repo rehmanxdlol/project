@@ -1,0 +1,46 @@
+<html>
+<head>
+<p><a href ="index.html">Home Page</a> return to home page</p>
+<h2Validation Form</h2>
+<form action ="/form_report.php">
+<label for ="fname">First Name:</label><br>
+<input type="text" id="fname" name="fname" required<br>
+<input type="submit" value="Submit"><br>
+<label for="lname">Last Name:</label><br>
+<input type="text" id="lname" name"lname"><br>
+<button onclick="myLastName()">Submit</button>
+
+<script>
+function myLastName() {
+let y = document.getElementById("lname").value;
+if (y=== "") {
+alert("Last name cannot be empty!");
+}
+}
+</script>
+
+<p>Please enter a number between 1 and 15:</p>
+<input id="numb">
+
+<button type="button" onclick="myFunction()">Submit</button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+let x = document.getElementById("numb").value;
+
+let text;
+if (isNan(x) || x < 1 || x > 15) {
+text = "Input invalid";
+} else {
+text = "Input valid";
+}
+document.getElementById("demo").innerHTML = text;
+}
+</script>
+
+</form>
+</head>
+
+</html>
